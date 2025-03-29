@@ -6,16 +6,20 @@ public class Metadata {
     private double rating;
     private int reviews;
 
-    // Getters and Setters
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
+    // Constructor, Getters, and Setters
+    public String getId() {
+        return id;
+    }
 
-    public String getType() { return type; }
-    public void setType(String type) { this.type = type; }
+    public String getType() {
+        return type;
+    }
 
-    public double getRating() { return rating; }
-    public void setRating(double rating) { this.rating = rating; }
+    public double getRating() {
+        return rating;
+    }
 
-    public int getReviews() { return reviews; }
-    public void setReviews(int reviews) { this.reviews = reviews; }
+    public int getReviews() {
+        return reviews;
+    }
 }
